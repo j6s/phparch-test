@@ -1,0 +1,18 @@
+{
+    "name": "j6s/phparch-test",
+    "authors": [
+        {
+            "name": "Johannes Hertenstein",
+            "email": "johannes@nimius.net"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.1",
+        "j6s/phparch": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpArchTest\\": "src/"
+        }
+    }
+}
